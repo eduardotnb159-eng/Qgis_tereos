@@ -1,13 +1,36 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <plugins>
-  <pyqgis_plugin name="Geotecnologia_Topografia_Tereos"
-                 version="1.0.0"
-                 qgis_minimum_version="3.34"
-                 qgis_maximum_version="3.99"
-                 homepage="https://github.com/Eduardotereos/RepositorioTereos"
-                 download_url="blob:https://github.com/3a9fdf56-0b7a-41c2-b17d-1509a1d88c77"
-                 author="Eduardo Leoncio">
-    <description>Plugin privado Tereos para QGIS</description>
-    <about>Plugin desenvolvido para uso interno na Tereos</about>
+  <pyqgis_plugin name="Geotecnologia &amp; Topografia - Tereos" version="1.0.0">
+    <description><![CDATA[
+      Ferramentas da Tereos para topografia e geotecnologias no QGIS.
+    ]]></description>
+
+    <!-- Versões do QGIS suportadas -->
+    <qgis_minimum_version>3.22</qgis_minimum_version>
+    <qgis_maximum_version>3.99</qgis_maximum_version>
+
+    <!-- Links úteis (opcional, mas recomendado) -->
+    <homepage><![CDATA[https://github.com/eduardotnb159-eng/Qgis_tereos]]></homepage>
+    <repository><![CDATA[https://github.com/eduardotnb159-eng/Qgis_tereos]]></repository>
+    <tracker><![CDATA[https://github.com/eduardotnb159-eng/Qgis_tereos/issues]]></tracker>
+
+    <!-- URL direta do ZIP do plugin -->
+    <download_url><![CDATA[
+      https://raw.githubusercontent.com/eduardotnb159-eng/Qgis_tereos/main/Geotecnologia%20%26%20Topografia%20-%20Tereos.zip
+    ]]></download_url>
+
+    <!-- Metadados adicionais -->
+    <author_name>Eduardo Leoncio</author_name>
+    <author_email>contato@example.com</author_email>
+    <experimental>False</experimental>
+    <deprecated>False</deprecated>
+    <tags>qgis; topografia; tereos; agro; brasil</tags>
+    <category>Plugins</category>
+
+    <!-- Controle de versão do repositório -->
+    <version_id>1</version_id>
+    <changelog><![CDATA[
+      1.0.0 — Primeira publicação do repositório personalizado.
+    ]]></changelog>
   </pyqgis_plugin>
 </plugins>
