@@ -6,7 +6,7 @@
     ]]></description>
 
     <!-- Versões do QGIS suportadas -->
-    <qgis_minimum_version>3.22</qgis_minimum_version>
+    <qgis_minimum_version>1.22</qgis_minimum_version>
     <qgis_maximum_version>3.99</qgis_maximum_version>
 
     <!-- Links úteis (opcional, mas recomendado) -->
@@ -21,7 +21,7 @@
 
     <!-- Metadados adicionais -->
     <author_name>Eduardo Leoncio</author_name>
-    <author_email>contato@example.com</author_email>
+    <author_email>eduardo.leoncio@tereos.com</author_email>
     <experimental>False</experimental>
     <deprecated>False</deprecated>
     <tags>qgis; topografia; tereos; agro; brasil</tags>
