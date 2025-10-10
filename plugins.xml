@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <plugins>
-  <pyqgis_plugin name="plugin_tereos" version="1.0.0">
+  <pyqgis_plugin name="Geotecnologia e Topografia - Tereos" version="1.1.2">
     <display_name>Geotecnologia &amp; Topografia - Tereos</display_name>
 
     <description><![CDATA[
