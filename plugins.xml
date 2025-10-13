@@ -1,37 +1,50 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <plugins>
-  <pyqgis_plugin name="Geotecnologia e Topografia Tereos" version="2.0.1">
+  <pyqgis_plugin name="Geotecnologia e Topografia Tereos" version="1.1.3">
     <!-- Nome exibido no QGIS -->
     <display_name>Geotecnologia e Topografia Tereos</display_name>
 
-    <!-- Nome da pasta principal dentro do ZIP -->
+    <!-- Nome do pacote/pasta raiz dentro do ZIP -->
     <package_name>Geotecnologia e Topografia Tereos</package_name>
 
-    <!-- Nome exato do arquivo ZIP no repositório -->
+    <!-- Nome do arquivo ZIP baixado -->
     <file_name>Geotecnologia e Topografia Tereos.zip</file_name>
 
-    <!-- Descrição curta -->
     <description><![CDATA[
-      Ferramentas desenvolvidas por Eduardo Leoncio para Geotecnologia e Topografia da Tereos.
+      Ferramentas da Tereos para topografia e geotecnologias no QGIS.
     ]]></description>
 
     <!-- Versões do QGIS suportadas -->
-    <qgis_minimum_version>2.0</qgis_minimum_version>
+    <qgis_minimum_version>2.99</qgis_minimum_version>
     <qgis_maximum_version>3.99</qgis_maximum_version>
 
-    <!-- Informações fixas -->
-    <author_name>Eduardo Leoncio</author_name>
-    <email>eduardo.leoncio@tereos.com</email>
+    <!-- Links úteis -->
     <homepage><![CDATA[https://github.com/eduardotnb159-eng/Qgis_tereos]]></homepage>
-    <tracker><![CDATA[https://github.com/eduardotnb159-eng/Qgis_tereos/issues]]></tracker>
     <repository><![CDATA[https://github.com/eduardotnb159-eng/Qgis_tereos]]></repository>
+    <tracker><![CDATA[https://github.com/eduardotnb159-eng/Qgis_tereos/issues]]></tracker>
 
-    <!-- Descrição longa -->
+    <!-- URL direta do ZIP do plugin -->
+    <download_url><![CDATA[
+      https://raw.githubusercontent.com/eduardotnb159-eng/Qgis_tereos/main/Geotecnologia%20e%20Topografia%20Tereos.zip
+    ]]></download_url>
+
+    <!-- (Opcional) MD5 de verificação -->
+    <!-- <md5>INSIRA_AQUI_O_MD5_DO_SEU_ZIP</md5> -->
+
+    <author_name>Eduardo Leoncio</author_name>
+    <author_email>eduardo.leoncio@tereos.com</author_email>
+    <experimental>False</experimental>
+    <deprecated>False</deprecated>
+    <tags>qgis; topografia; tereos; agro; brasil</tags>
+    <category>Plugins</category>
+
+    <!-- Controle de versão -->
+    <version_id>2</version_id>
+
     <about><![CDATA[
       Plugin desenvolvido por Eduardo Leoncio para automatização de rotinas de Geotecnologia e Topografia na Tereos.<br>
       Contato: <a href="mailto:eduardo.leoncio@tereos.com">eduardo.leoncio@tereos.com</a><br><br>
       © 2025 Eduardo Leoncio – Geotecnologia & Topografia
     ]]></about>
-
   </pyqgis_plugin>
 </plugins>
