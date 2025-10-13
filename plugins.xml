@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <plugins>
-  <pyqgis_plugin name="Geotecnologia e Topografia Tereos" version="1.1.3">
+  <pyqgis_plugin name="Geotecnologia e Topografia Tereos" version="2.0.5">
     <!-- Nome exibido no QGIS -->
     <display_name>Geotecnologia e Topografia Tereos</display_name>
 
@@ -15,7 +15,7 @@
     ]]></description>
 
     <!-- Versões do QGIS suportadas -->
-    <qgis_minimum_version>2.99</qgis_minimum_version>
+    <qgis_minimum_version>2.0</qgis_minimum_version>
     <qgis_maximum_version>3.99</qgis_maximum_version>
 
     <!-- Links úteis -->
@@ -39,7 +39,7 @@
     <category>Plugins</category>
 
     <!-- Controle de versão -->
-    <version_id>2</version_id>
+    <version_id>2.0.5</version_id>
 
     <about><![CDATA[
       Plugin desenvolvido por Eduardo Leoncio para automatização de rotinas de Geotecnologia e Topografia na Tereos.<br>
