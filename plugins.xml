@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <plugins>
-  <pyqgis_plugin name="Geotecnologia e Topografia Tereos" version="2.0.6">
+  <pyqgis_plugin name="Geotecnologia e Topografia Tereos" version="2.0.7">
     <!-- Nome exibido no QGIS -->
     <display_name>Geotecnologia e Topografia Tereos</display_name>
 
@@ -39,7 +39,7 @@
     <category>Plugins</category>
 
     <!-- Controle de versão -->
-    <version_id>2.0.6</version_id>
+    <version_id>2.0.7</version_id>
 
     <about><![CDATA[
       Plugin desenvolvido por Eduardo Leoncio para automatização de rotinas de Geotecnologia e Topografia na Tereos.<br>
