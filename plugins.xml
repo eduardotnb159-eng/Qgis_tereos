@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <plugins>
-  <pyqgis_plugin name="Geotecnologia e Topografia Tereos" version="2.0.8">
+  <pyqgis_plugin name="Geotecnologia e Topografia Tereos" version="2.0.9">
     <!-- Nome exibido no QGIS -->
     <display_name>Geotecnologia e Topografia Tereos</display_name>
 
     <!-- Nome do pacote/pasta raiz dentro do ZIP -->
     <package_name>Geotecnologia e Topografia Tereos</package_name>
 
-    <!-- Nome do arquivo ZIP baixado -->
+    <!-- Nome do arquivo ZIP -->
     <file_name>Geotecnologia e Topografia Tereos.zip</file_name>
 
     <description><![CDATA[
@@ -15,20 +15,20 @@
     ]]></description>
 
     <!-- Versões do QGIS suportadas -->
-    <qgis_minimum_version>2.0</qgis_minimum_version>
+    <qgis_minimum_version>3.22</qgis_minimum_version>
     <qgis_maximum_version>3.99</qgis_maximum_version>
 
-    <!-- Links úteis -->
-    <homepage><![CDATA[https://github.com/eduardotnb159-eng/Qgis_tereos]]></homepage>
-    <repository><![CDATA[https://github.com/eduardotnb159-eng/Qgis_tereos]]></repository>
-    <tracker><![CDATA[https://github.com/eduardotnb159-eng/Qgis_tereos/issues]]></tracker>
+    <!-- Links locais -->
+    <homepage><![CDATA[file:///Y:/REPOSITORIO_QGIS/]]></homepage>
+    <repository><![CDATA[file:///Y:/REPOSITORIO_QGIS/]]></repository>
+    <tracker><![CDATA[file:///Y:/REPOSITORIO_QGIS/]]></tracker>
 
-    <!-- URL direta do ZIP do plugin -->
+    <!-- URL direta do ZIP local -->
     <download_url><![CDATA[
-      https://raw.githubusercontent.com/eduardotnb159-eng/Qgis_tereos/main/Geotecnologia%20e%20Topografia%20Tereos.zip
+      file:///Y:/REPOSITORIO_QGIS/Geotecnologia%20e%20Topografia%20Tereos.zip
     ]]></download_url>
 
-    <!-- (Opcional) MD5 de verificação -->
+    <!-- (Opcional) MD5 -->
     <!-- <md5>INSIRA_AQUI_O_MD5_DO_SEU_ZIP</md5> -->
 
     <author_name>Eduardo Leoncio</author_name>
@@ -39,7 +39,7 @@
     <category>Plugins</category>
 
     <!-- Controle de versão -->
-    <version_id>2.0.8</version_id>
+    <version_id>2.0.9</version_id>
 
     <about><![CDATA[
       Plugin desenvolvido por Eduardo Leoncio para automatização de rotinas de Geotecnologia e Topografia na Tereos.<br>
